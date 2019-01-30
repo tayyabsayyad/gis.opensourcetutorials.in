@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on Open Source Tutorials</title>
+    <link>https://opensourcetutorials.in/tags/linux/</link>
+    <description>Recent content in Linux on Open Source Tutorials</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
+    <lastBuildDate>Tue, 25 Dec 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://opensourcetutorials.in/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title> </title>
+      <link>https://opensourcetutorials.in/cheetsheets/gitcheetsheet/</link>
+      <pubDate>Tue, 25 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://opensourcetutorials.in/cheetsheets/gitcheetsheet/</guid>
+      <description>&lt;p&gt;Git Quick Start&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Linux Desktop Environment </title>
+      <link>https://opensourcetutorials.in/post/linuxdesktopenvironment/</link>
+      <pubDate>Thu, 06 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://opensourcetutorials.in/post/linuxdesktopenvironment/</guid>
+      <description>&lt;p&gt;In this post, we will explore various Linux desktop environments
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Linux softwares alternatives </title>
+      <link>https://opensourcetutorials.in/post/alternatives/</link>
+      <pubDate>Thu, 06 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://opensourcetutorials.in/post/alternatives/</guid>
+      <description>&lt;p&gt;Linux softwares equaivalent to other softwares
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to make installation media ?</title>
+      <link>https://opensourcetutorials.in/post/installationmedia/</link>
+      <pubDate>Tue, 04 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://opensourcetutorials.in/post/installationmedia/</guid>
+      <description>&lt;p&gt;In this post I will explain how to make installation media ?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Preparing you desktop/laptop for Linux installation</title>
+      <link>https://opensourcetutorials.in/post/preparingforlinux/</link>
+      <pubDate>Tue, 04 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://opensourcetutorials.in/post/preparingforlinux/</guid>
+      <description>&lt;p&gt;In this post I will explain step by step how to prepare you PC or Laptop for any Linux distributions.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Why we need Open-source software in schools?</title>
+      <link>https://opensourcetutorials.in/post/whylinuxinschools/</link>
+      <pubDate>Tue, 04 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://opensourcetutorials.in/post/whylinuxinschools/</guid>
+      <description>&lt;p&gt;Computer technology is becoming prevalent throughout our society and is playing a crucial role in all walks of life and technological advancements and automation that we are now witnessing. It is at the core of the rapid advances that are occurring in almost every field of human endeavor.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Difference between LINUX and UNIX </title>
+      <link>https://opensourcetutorials.in/post/unixvslinux/</link>
+      <pubDate>Mon, 03 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://opensourcetutorials.in/post/unixvslinux/</guid>
+      <description>&lt;p&gt;We will discuss in detail the difference between Linux and Unix&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How Linux is different from Windows</title>
+      <link>https://opensourcetutorials.in/post/linuxvswindows/</link>
+      <pubDate>Mon, 03 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://opensourcetutorials.in/post/linuxvswindows/</guid>
+      <description>&lt;p&gt;We will discuss in detail diferences bewteen Linux and Windows
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title> Advantages of Open Source Softwares</title>
+      <link>https://opensourcetutorials.in/post/advantages_linux/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://opensourcetutorials.in/post/advantages_linux/</guid>
+      <description>&lt;p&gt;We will discuss the advantages of the Linux and Open source Softwares
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title> Understanding Linux distributions</title>
+      <link>https://opensourcetutorials.in/post/whatislinuxdistro/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://opensourcetutorials.in/post/whatislinuxdistro/</guid>
+      <description>&lt;p&gt;In this post we will discuss what is Linux Distributions&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Why switch to Linux ?</title>
+      <link>https://opensourcetutorials.in/post/whytoswitch/</link>
+      <pubDate>Thu, 29 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://opensourcetutorials.in/post/whytoswitch/</guid>
+      <description>&lt;p&gt;This post will try to explain why you must switch to Linux&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Linux Flavors</title>
+      <link>https://opensourcetutorials.in/post/linuxflavors/</link>
+      <pubDate>Wed, 28 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://opensourcetutorials.in/post/linuxflavors/</guid>
+      <description>&lt;p&gt;Choosing right Linux distribution&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Switch to Linux </title>
+      <link>https://opensourcetutorials.in/post/switchlinux/</link>
+      <pubDate>Tue, 27 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://opensourcetutorials.in/post/switchlinux/</guid>
+      <description>&lt;p&gt;Switch to Linux with easy steps&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Open Source Blogging Tools </title>
+      <link>https://opensourcetutorials.in/post/bloggingtools/</link>
+      <pubDate>Wed, 10 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://opensourcetutorials.in/post/bloggingtools/</guid>
+      <description>&lt;p&gt;In this post we will look at top open source blogging tools&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

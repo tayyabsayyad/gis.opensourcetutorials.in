@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> River Basins in India </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+  <link rel="stylesheet" href="../bootstrap4/css/bootstrap.min.css">
+  <script src="../jquery/jquery-3.3.1.min.js"></script>
+  <script src="../bootstrap4/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="../leafletjs/leaflet.css"/>
+  <script src="../leafletjs/leaflet.js"></script>
+</head>
+
+<body>
+  <nav class="navbar  navbar-toggleable-md navbar-light" style="background-color: #F8F9FA	">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Rivers in India </a>
+      </div>
+
+      <nav class="navbar navbar-expand-sm bg-light navbar-light">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Rivers in India</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Feedback</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Help</a>
+          </li>
+        </ul>
+      </nav>
+
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-2">
+        <div class="panel-group">
+          <div class="panel panel-default">
+            <div class="panel-heading"> <h5><b>Major Rivers </b></h5></div>
+             <div class="panel-body">
+              <form>
+                <div class="checkbox">
+                  <label><input type="checkbox" value=""> Ganga </label>
+                </div>
+                <div class="checkbox">
+                  <label><input type="checkbox" value="">Damodar</label>
+                </div>
+                <div class="checkbox">
+                  <label><input type="checkbox" value="">Narmada</label>
+                </div>
+                <div class="checkbox">
+                  <label><input type="checkbox" value=""> Krishna</label>
+                </div>
+
+                <div class="checkbox">
+                  <label><input type="checkbox" value="">Indus</label>
+                </div>
+
+                <div class="checkbox">
+                  <label><input type="checkbox" value=""> Mahanadi</label>
+                </div>
+                <div class="checkbox">
+                  <label><input type="checkbox" value=""> Godavari</label>
+                </div>
+
+                <div class="checkbox">
+                  <label><input type="checkbox" value=""> Krishna</label>
+                </div>
+
+                <div class="checkbox">
+                  <label><input type="checkbox" value=""> Pennar</label>
+                </div>
+
+                <div class="checkbox">
+                  <label><input type="checkbox" value=""> Cauvery</label>
+                </div>
+                <div class="checkbox">
+                  <label><input type="checkbox" value=""> Tapi</label>
+                </div>
+
+                <div class="checkbox">
+                  <label><input type="checkbox" value=""> Narmada</label>
+                </div>
+
+                <div class="checkbox">
+                  <label><input type="checkbox" value=""> Mahi</label>
+                </div>
+
+                <div class="checkbox">
+                  <label><input type="checkbox" value=""> Sabarmati</label>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-10">
+        <br><br>
+        <div id="mapid" style="width: 900px; height: 400px;"></div>
+
+        <script>
+          	var map = L.map('mapid').setView([51.5, -0.09], 13);
+
+          	L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+          		attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+          	}).addTo(map);
+
+          	var LeafIcon = L.Icon.extend({
+          		options: {
+          			shadowUrl: 'leaf-shadow.png',
+          			iconSize:     [38, 95],
+          			shadowSize:   [50, 64],
+          			iconAnchor:   [22, 94],
+          			shadowAnchor: [4, 62],
+          			popupAnchor:  [-3, -76]
+          		}
+          	});
+
+          	var greenIcon = new LeafIcon({iconUrl: 'leaf-green.png'}),
+          		redIcon = new LeafIcon({iconUrl: 'leaf-red.png'}),
+          		orangeIcon = new LeafIcon({iconUrl: 'leaf-orange.png'});
+
+          	L.marker([51.5, -0.09], {icon: greenIcon}).bindPopup("I am a green leaf.").addTo(map);
+          	L.marker([51.495, -0.083], {icon: redIcon}).bindPopup("I am a red leaf.").addTo(map);
+          	L.marker([51.49, -0.1], {icon: orangeIcon}).bindPopup("I am an orange leaf.").addTo(map);
+
+          </script>
+
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> River Basins in India </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+  <link rel="stylesheet" href="../bootstrap4/css/bootstrap.min.css">
+  <script src="../jquery/jquery-3.3.1.min.js"></script>
+  <script src="../bootstrap4/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="../leafletjs/leaflet.css"/>
+  <script src="../leafletjs/leaflet.js"></script>
+</head>
+
+<body>
+  <nav class="navbar  navbar-toggleable-md navbar-light" style="background-color: #F8F9FA	">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Rivers in India </a>
+      </div>
+
+      <nav class="navbar navbar-expand-sm bg-light navbar-light">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Rivers in India</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Feedback</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Help</a>
+          </li>
+        </ul>
+      </nav>
+
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-2">
+        <div class="panel-group">
+          <div class="panel panel-default">
+            <div class="panel-heading"> <h5><b>Major Rivers </b></h5></div>
+             <div class="panel-body">
+              <form>
+                <div class="checkbox">
+                  <label><input type="checkbox" value=""> Ganga </label>
+                </div>
+                <div class="checkbox">
+                  <label><input type="checkbox" value="">Damodar</label>
+                </div>
+                <div class="checkbox">
+                  <label><input type="checkbox" value="">Narmada</label>
+                </div>
+                <div class="checkbox">
+                  <label><input type="checkbox" value=""> Krishna</label>
+                </div>
+
+                <div class="checkbox">
+                  <label><input type="checkbox" value="">Indus</label>
+                </div>
+
+                <div class="checkbox">
+                  <label><input type="checkbox" value=""> Mahanadi</label>
+                </div>
+                <div class="checkbox">
+                  <label><input type="checkbox" value=""> Godavari</label>
+                </div>
+
+                <div class="checkbox">
+                  <label><input type="checkbox" value=""> Krishna</label>
+                </div>
+
+                <div class="checkbox">
+                  <label><input type="checkbox" value=""> Pennar</label>
+                </div>
+
+                <div class="checkbox">
+                  <label><input type="checkbox" value=""> Cauvery</label>
+                </div>
+                <div class="checkbox">
+                  <label><input type="checkbox" value=""> Tapi</label>
+                </div>
+
+                <div class="checkbox">
+                  <label><input type="checkbox" value=""> Narmada</label>
+                </div>
+
+                <div class="checkbox">
+                  <label><input type="checkbox" value=""> Mahi</label>
+                </div>
+
+                <div class="checkbox">
+                  <label><input type="checkbox" value=""> Sabarmati</label>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-10">
+        <br><br>
+        <div id="map" style="width: 900px; height: 400px;"></div>
+
+        <script type="text/javascript">
+
+
+        var map = L.map('map', {
+        		center: [19.0843,72.8360],
+        		zoom: 15
+        	});
+
+          	var tms_mu = L.tileLayer('http://159.65.146.249:80/geoserver/gwc/service/tms/1.0.0/geonode%3Adummy_hwest_data@EPSG%3A4326@png/{z}/{x}/{y}.png',{
+          		tms: true
+          	}).addTo(map);
+
+          	var tms_mu2 = L.tileLayer('http://159.65.146.249:80/geoserver/gwc/service/tms/1.0.0/geonode%3Adummy_hwest_data@EPSG%3A4326@jpeg"/{z}/{x}/{y}.jpg', {
+          		tms: true
+          	});
+
+          	var basemaps = {
+          		'TMS 1  ': tms_mu,
+          		'TMS 2  ': tms_mu2
+          	};
+
+          	L.control.layers(basemaps, {}, {collapsed: false}).addTo(map);
+
+          	basemaps.Countries.addTo(map);
+
+          </script>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

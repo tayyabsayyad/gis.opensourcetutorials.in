@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://gis.opensourcetutorials.in/post/qgis/workshop/resourcesdata/</loc>
+    <lastmod>2019-01-02T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://gis.opensourcetutorials.in/post/geonodeinstall/</loc>
+    <lastmod>2018-12-25T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://gis.opensourcetutorials.in/post/qgis/workshop/createvectorlayer/</loc>
+    <lastmod>2018-12-23T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://gis.opensourcetutorials.in/post/qgis/workshop/creatingmaps/</loc>
+    <lastmod>2018-12-23T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://gis.opensourcetutorials.in/post/qgis/workshop/explorevectordata/</loc>
+    <lastmod>2018-12-23T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://gis.opensourcetutorials.in/post/qgis/workshop/features/</loc>
+    <lastmod>2018-12-23T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://gis.opensourcetutorials.in/post/qgis/workshop/gettingstarted/</loc>
+    <lastmod>2018-12-23T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://gis.opensourcetutorials.in/post/qgis/workshop/installppa/</loc>
+    <lastmod>2018-12-23T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://gis.opensourcetutorials.in/post/qgis/workshop/problem/</loc>
+    <lastmod>2018-12-23T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://gis.opensourcetutorials.in/post/qgis/workshop/styling/</loc>
+    <lastmod>2018-12-23T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://gis.opensourcetutorials.in/post/qgis/workshop/index/</loc>
+    <lastmod>2018-12-23T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://gis.opensourcetutorials.in/post/qgis/workshop/createbasicmap/</loc>
+    <lastmod>2018-12-23T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://gis.opensourcetutorials.in/post/qgis/workshop/creategeopackage/</loc>
+    <lastmod>2018-12-23T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://gis.opensourcetutorials.in/post/qgis/workshop/createvectordata/</loc>
+    <lastmod>2018-12-23T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://gis.opensourcetutorials.in/post/qgis/workshop/vectorclassification/</loc>
+    <lastmod>2018-12-23T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://gis.opensourcetutorials.in/categories/</loc>
+    <lastmod>2018-12-23T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gis.opensourcetutorials.in/post/qgis/workshop/vectoranalysis/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://gis.opensourcetutorials.in/categories/</loc>
+    <lastmod>2018-12-23T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gis.opensourcetutorials.in/tags/cheetsheets/</loc>
+    <lastmod>2018-12-25T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gis.opensourcetutorials.in/categories/cheetsheets/</loc>
+    <lastmod>2018-12-25T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gis.opensourcetutorials.in/</loc>
+    <lastmod>2019-01-02T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gis.opensourcetutorials.in/categories/gis/</loc>
+    <lastmod>2019-01-02T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gis.opensourcetutorials.in/post/</loc>
+    <lastmod>2019-01-02T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gis.opensourcetutorials.in/tags/qgis/</loc>
+    <lastmod>2019-01-02T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gis.opensourcetutorials.in/categories/qgis/</loc>
+    <lastmod>2018-12-23T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gis.opensourcetutorials.in/tags/</loc>
+    <lastmod>2018-12-25T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
